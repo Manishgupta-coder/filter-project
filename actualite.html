@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="la">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- banner start -->
+        <section class="banner banner-high">
+            <img src="assets/images/actualite-banner.jpg" alt="actualite-banner">
+            <div class="container">
+                <div class="banner-content banner-content-block">
+                    <h1>Titre de l’actualité</h1>
+                    <p>Procedente igitur mox tempore cum adventicium nihil inveniretur, relicta ora maritima in Lycaoniam</p>
+                    <a href="#" class="btn">En savoir plus <i class="arrow-tag"></i></a>
+                    <div class="banner-down">
+                        <ul>
+                            <li><a href="#comment"><i class="like-tag"></i>J’aime</a></li>
+                            <li><a href="#comment"><i class="comment-tag"></i>Commenter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner end -->
+        <!-- content start -->
+        <section class="content actualites-content">
+            <div class="container">
+                <h2>Coactique aliquotiens <span class="head-tag">nostri pedites</span></h2>
+                <p>Isauriae se contulerunt ibique densis intersaepientes itinera praetenturis provincialium et viatorumvEminuit autem inter humilia supergressa iam impotentia fines mediocrium delictorum nefanda Clematii cuiusdam Alexandrini nobilis mors repentina; cuius socrus cum misceri sibi generum, flagrans eius amore, non impetraret, ut ferebatur, per palatii pseudothyrum introducta, oblato pretioso reginae monili id adsecuta est, ut ad Honoratum tum comitem orientis formula missa letali omnino scelere nullo contactus idem Clematius nec hiscere nec loqui permissus occideretur.</p>
+            </div>
+        </section>
+        <!-- content end -->
+        <!-- videoplay start -->
+         <section class="actualite-introduced">
+            <div class="container">
+                <div class="content-block-left content-block-large">
+                    <img src="assets/images/video-introduced.png" alt="content-block" onClick="openPopup('assets/videos/video.mp4', 'Video Title 2', 'Description for Video 2')" class="play-icon">
+                </div>
+            </div>
+         </section>
+        <!-- videoplay end -->
+        <!-- comment start -->
+         <section class="comment" id="comment">
+            <div class="container">
+                <div class="comment-image">
+                    <img src="assets/images/comment.jpg" alt="comment">
+                </div>
+            </div>
+         </section>
+         <!-- comment end -->
+          <!-- footer start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="assets/images/footer-logo.png" alt="footer-logo">
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+        <!-- popup start -->
+        <section class="popup-wrap">
+            <div class="popup">
+                <div class="video-popup">
+                    <video controls loop muted playsinline>
+                       <source src="assets/videos/video.mp4" type="video/mp4" id="popup-video-source">
+                        <source src="assets/videos/video.ogg" type="video/ogg" id="popup-video-source-ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="popup-content">
+                    <h4 id="popup-title">Pseudothyrum introducta praetenturis provincialium </h4>
+                    <p id="popup-description">Video Description</p>
+                </div>
+                <button type="button" class="close-btn" onClick="closePopup()"></button>
+            </div>
+        </section>
+        <!-- popup end -->
+    </div>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
